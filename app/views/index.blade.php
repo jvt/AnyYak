@@ -13,8 +13,13 @@ AnyYak
 	</div>
 </div>
 <div class="search">
-	{{ Form::open(['route' => 'search.index', 'method' => 'POST']) }}
-		{{ Form::text('zip', null, ['class' => 'form-group']) }}
-	{{ Form::close() }}
+	<div class="container">
+		<div class="col-md-2"></div>
+		{{ Form::open(['route' => 'search.index', 'method' => 'POST', 'class' => 'col-md-8']) }}
+			{{ Form::text('zip', null, ['class' => 'form-group w100', 'placeholder' => 'Zip code']) }}
+			{{ Form::submit('Get Yaks', ['class' => 'btn btn-primary']) }}
+		{{ Form::close() }}
+		<div class="col-md-2"></div>
+	</div>
 </div>
 @stop
