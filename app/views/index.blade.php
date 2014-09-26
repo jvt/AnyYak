@@ -15,7 +15,7 @@ AnyYak
 		</div>
 		<div class="row" style="margin-top:20px;">
 			<div class="col-md-2"></div>
-			{{ Form::open(['route' => 'search.index', 'method' => 'POST', 'class' => 'col-md-8 form-inline']) }}
+			{{ Form::open(['route' => 'search.index', 'method' => 'GET', 'class' => 'col-md-8 form-inline']) }}
 				<div class="form-group col-md-10">
 					{{ Form::label('zip', 'Zip code', ['class' => 'sr-only']) }}
 					{{ Form::text('zip', null, ['class' => 'form-control', 'placeholder' => 'Zip code', 'style' => 'width:100% !important;']) }}					
