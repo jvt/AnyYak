@@ -5,6 +5,7 @@
 		<title>@yield('title')</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="UTF-8"/>
+		<meta name="Description" CONTENT="View YikYak's from anywhere in the country just by entering the location's zip code.">
 		@yield('meta')
 		<link href="/components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" media="screen">
 		<link href="/components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
