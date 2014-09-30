@@ -1,7 +1,7 @@
 @extends('layouts.default')
 
 @section('title')
-AnyYak
+AnyYak \ Home
 @stop
 
 @section('content')
