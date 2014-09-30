@@ -1,7 +1,9 @@
 ## AnyYak
 
-This is a hack of the YikYak hidden API which they didn't secure too well...
+This runs off the hidden YikYak API which wasn't secured too well.
 
 Oh well...
 
-# Created by: Joe Torraca
+---
+### Author
+Joe Torraca
